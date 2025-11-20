@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(#f58c85, #e78881);
+    height: 610px;
+    padding: 50px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.chair-img{
+    width: 550px;
+    transform: rotate(-2deg);
+    margin-left: 50px;
+}
+
+.right{
+    color: white;
+    padding-right: 80px;
+}
+
+.tagname{
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.product-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+
+}
+
+.price{
+    margin: 20px 0;
+    font-size: 28px;
+}
+
+.price .new{
+    font-weight: 700;
+}
+
+.price .old{
+    margin-left: 15px;
+    opacity: .5;
+    text-decoration: line-through;
+}
+
+.tabs{
+    margin-top: 20px;
+}
+
+.tabs span{
+    margin-right: 30px;
+    font-size: 20px;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.tabs .active{
+    font-weight: 600;
+    color: #ffe59f;
+    opacity: 1.5;
+}
+.tabs .unactive{
+    font-weight: 600;
+    color: #ffe59f;
+    opacity: 0.5;
+}
+
+.description{
+    margin: 20px 0 30px 0;
+    font-size: 18px;
+    width: 400px;
+    line-height: 28px;
+}
+
+.choose{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.colors{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.color{
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.color:hover{
+    border: #000 solid;
+    border-radius: 5px;
+    transform: scale(1.05);
+}
+
+.c1{ background: #8d2b2b; }
+.c2{ background: #ffb796; }
+.c3{ background: #698db7; }
+.c4{ background: #5c84b8; }
+.c5{ background: #9a9a91; }
+.c6{ background: #595959; }
+
+.cart-btn{
+    width: 240px;
+    background: #98454b;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cart-btn:hover{
+    background-color: #000;
+    
+}
