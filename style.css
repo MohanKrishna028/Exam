@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(196deg, #f1a9a9, #e66767);
+    background: linear-gradient(196deg, #f1a9a9, #e66767);
     height: 610px;
     padding: 50px;
 }
@@ -20,7 +20,6 @@ body{
 
 .chair-img{
     width: 550px;
-    transform: rotate(-2deg);
     margin-left: 50px;
 }
 
