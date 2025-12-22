@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+}
+.nav{
+    display: flex;
+    
+    
+}
+.contact{
+    background-color: rgb(121, 226, 121);
+    color: white;
+    border-radius: 5px;
+}
+.hero{
+    background-image:(url("../../../word press/bridge.1/courses-img-5.jpg"));
+}
+.hero h1{
+    font-size: 100px;
+}
+.color{
+    color: rgb(255, 106, 0);
+}
+.b1{
+    background-color: rgb(121, 226, 121);
+    color: white;
+    border-radius: 5px;
+}
+.b2{
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
